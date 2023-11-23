@@ -1,4 +1,4 @@
-# ParkSpot
+# ParkSpot Currently in Development
 ParkSpot is a revolutionary parking solution app designed to make your parking experience hassle-free. With ParkSpot, you can easily find available parking spots in real-time around your location. The app provides detailed information about each parking spot, including the size, cost, and distance from your current location.
 
 ParkSpot also allows you to reserve a parking spot in advance, ensuring that you have a spot waiting for you when you arrive at your destination. The app supports multiple payment methods for a seamless parking experience.
