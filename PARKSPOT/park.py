@@ -24,7 +24,7 @@ class ParkApp(App):
         layout = FloatLayout()
 
         # Create a horizontal BoxLayout for the search box and button
-        search_layout = BoxLayout(orientation='horizontal', size_hint=(0.8, 0.1), pos_hint={'top': 1})
+        search_layout = BoxLayout(orientation='horizontal', size_hint=(0.8, 0.1), pos_hint={'top': 1, 'center_x': 0.5})
 
         # Create a search box and add it to the search layout
         self.search_box = TextInput(hint_text='Enter address', size_hint=(0.8, 1))
@@ -46,8 +46,7 @@ class ParkApp(App):
         response = self.geocoder.forward(address)
         try:
             feature = response.json()['features'][0]
-            self.mapview.lat = feature['center'][1]
-            self.mapview.lon = feature['center'][0]
+            self.mapview.center_on(feature['center'][1], feature['center'][0])
             self.marker.lat = feature['center'][1]
             self.marker.lon = feature['center'][0]
         except IndexError:
