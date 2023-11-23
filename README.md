@@ -1,7 +1,7 @@
 # ParkSpot Currently in Development
 BY Tanay Anand Mishra && Sudhanshu Gupta
 
-![image](https://github.com/Tanay2920003/ParkSpot/assets/127974995/4be79930-963b-4a88-9eb7-b0edfa18b368)
+
 
 ParkSpot is a revolutionary parking solution app designed to make your parking experience hassle-free. With ParkSpot, you can easily find available parking spots in real-time around your location. The app provides detailed information about each parking spot, including the size, cost, and distance from your current location.
 
