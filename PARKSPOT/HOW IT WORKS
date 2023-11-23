@@ -1,0 +1,2 @@
+#HOW IT WORKS
+ParkSpot, works by utilizing a map API to find parking locations near the user's current location. It then provides navigation to the selected parking spot and also offers information on the availability and priority of parking spaces. The app aims to make the process of finding parking spaces hassle-free for users.
